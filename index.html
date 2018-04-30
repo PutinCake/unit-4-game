@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Game of Death</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+<!--main section-->
+  <header>
+    <img src="assets/images/head.png" class="headPic">
+  </header>
+  <h1 class="section-title">Choose your character</h1>
+  <div class="container" id="main-game-section">
+    <div class="container col-md-12" id="characters-section">
+    <div class="container section-title">Select Your Character</div>
+  </div>
+  <div class="container col-md-4" id="selected-character-section">
+    <div class="section-title container"></div>
+    <div id="selected-character"></div>
+  </div>
+    <div class="section-title container col-md-4"><h1>battlefield report</h1>
+      <div id="fight-section">
+      	<button class="btn" id="attack-button">Attack</button>
+      	<div class="jumbotron" id="gameMessage"></div>
+    	</div>   
+    </div>	
+    <div id="action">
+      <div class="character-section">
+        <div class="container section-title col-md-3">
+        	<div id="defender"></div>
+        </div>	
+      </div>
+    </div>    
+    <div class="container" id="available-to-attack-section">
+      <div class="section-title"></div>
+    </div>
+<!--main section ends-->
+
+
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
