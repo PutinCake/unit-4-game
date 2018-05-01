@@ -87,8 +87,8 @@ $(document).ready(function() {
         $('#attack-button').css('visibility', 'visible');
       }
 
-      if (react == '#attack-section') {
-        $('#attack-section').prepend("Choose Your Next Opponent");      
+      if (react == '#attackSection') {
+        $('#attackSection').prepend("Choose Your Next Opponent");      
         for (var i = 0; i < charObjects.length; i++) {
         fighterInfo(charObjects[i], react, 'enemy');
         }
@@ -146,7 +146,7 @@ $(document).ready(function() {
         
         $("#charSection").hide();
         renderCharacters(selectedFighters, '#selected-character');
-        renderCharacters(fighters, '#attack-section');
+        renderCharacters(fighters, '#attackSection');
       }
 	  });
 	

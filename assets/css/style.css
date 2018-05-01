@@ -102,7 +102,6 @@
       cursor: pointer;
       display: inline-block;
       background-color: gold;
-      float: left;
   }
 
   #attacker {
@@ -114,11 +113,11 @@
     color: white;
   }
   
-  #available-to-attack-section {
+  #attackSection {
     color: white;
     float: right;
   }
-  #available-to-attack-section img {
+  #attackSection img {
       height: 100px;
   }
   
