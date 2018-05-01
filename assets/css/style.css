@@ -1,0 +1,139 @@
+/* body variable*/
+
+  body {
+    background-image: url("../images/bgImages.png"); 
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .headPic{
+      width: 100%;
+      max-width: 100%;
+  }
+
+  #gameMessage {  
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    height: 180px;
+  }
+
+  #choose-enemy-button {
+    visibility: hidden;
+  }
+
+  #restart-button {
+    visibility: hidden;
+  }
+
+  #turn-counter {
+    font-size: 150%;
+  }
+
+  .section-title{
+    color: #fff;
+    text-align: center;
+  }
+  
+/*character info*/
+
+  .character {
+    width: 200px;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .character img {
+    border: 0 none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+  }
+
+  .character-name {
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 30px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+  }
+
+  .character-health {
+    width: 200px;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  #selected-character{
+    text-align: center;
+    color: white;
+  }
+  
+ /*fighting interface design*/
+
+  .attack {
+    text-align: center;
+  }
+
+  .action {
+    margin: 20px 5px;
+  }
+
+  #attack-button{
+      visibility: hidden;
+  }
+
+  .btn {
+      background: burlywood;
+      color: black;	
+  }
+
+  .enemy {
+      width: 153px;
+      margin: 5px;
+      border-style: solid;
+      border-color: black;
+      border-width: 1px;
+      cursor: pointer;
+      display: inline-block;
+      background-color: gold;
+      float: left;
+  }
+
+  #attacker {
+      padding: 5px;
+  }
+
+  .target-enemy {
+    background-color: black;
+    color: white;
+  }
+  
+  #available-to-attack-section {
+    color: white;
+    float: right;
+  }
+  #available-to-attack-section img {
+      height: 100px;
+  }
+  
+  #defender{
+    text-align: center;
+  }
+  #defender-name {
+    text-align: center;
+  }
+  #defender-image {
+    padding: 0px 16px;
+    margin: 3px 0px;
+  }
+  #defender-health {
+    text-align: center;
+  }
+  
+  
